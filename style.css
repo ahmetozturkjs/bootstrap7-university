@@ -1,0 +1,80 @@
+#header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(./images/banner.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#header a{
+    transition: all 0.5s;
+}
+#header .content a:hover{
+    background-color:rgb(230,75,50) ;
+}
+
+.section-5 a:hover{
+    background-color:rgb(230,75,50) ;
+    
+}
+#header span:hover{
+    color:rgb(230,75,50) ;
+}
+
+/* ----SECTİON--1--- */
+
+
+ /* ----SECTİON--2--- */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:100%;
+    left:0;
+    z-index: 5;    
+    background-image: linear-gradient(rgb(235,129,123,0.5), rgb(235,129,123,0.5), rgb(235,129,123,0.5),rgb(235,129,123,0.5));
+   transition: all 0.5s;
+    
+}
+
+ .img:hover .overlay{
+    top: 0;
+    
+    
+    cursor: pointer;
+ }
+
+.img{
+    position: relative;
+    overflow-y: hidden;
+}
+.fa-solid{
+    color: rgb(216,79,58)!important;
+}
+.fa-light{
+    color: rgb(216,79,58)!important;
+}
+.card-student{
+    background-color:rgb(230,75,50,.1)  ;
+    border: none;
+}
+.vesikalik{
+    margin-right: -6rem;
+}
+.vesikalik img{
+    padding: 1rem;
+}
+.section-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.807)),url(./images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 50vh;
+    margin: 5rem 5rem;
+
+}
+.fa-amilia{
+    color:rgb(230,75,50) ;
+}
